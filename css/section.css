@@ -1,0 +1,47 @@
+.section {
+    color: white;
+    margin: 10px;
+    font-size: 20px
+}
+
+.section--last {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.section__header {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.section__header--little {
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    margin: auto;
+    padding: 20px;
+}
+
+.section__div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__paragraph {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.section__paragraph--last {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}

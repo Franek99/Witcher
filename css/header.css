@@ -1,0 +1,47 @@
+.header {
+    color: white;
+
+}
+
+.header__header--main {
+    color: white;
+    font-size: 150px;
+    text-align: center;
+    border-bottom: solid white 3px;
+
+}
+
+.header__header {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.header__div {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    place-items: center;
+    margin: 10px;
+    line-height: 2;
+    font-size: 20px;
+    border: solid white 3px;
+}
+
+.header__div--second {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+.header__div--image {
+    background-size: 1130px 450px;
+    background-size: cover;
+    resize: both;
+    overflow: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/wiedzmin.jpg");
+}

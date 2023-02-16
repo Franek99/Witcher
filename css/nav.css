@@ -1,0 +1,25 @@
+.navigation {
+    padding: 7px;
+    border: solid white 3px;
+    background-color: rgb(56, 55, 55);
+    text-align: center;
+    width: 450px;
+}
+
+.navigation__list {
+    list-style: none;
+}
+
+.navigation__item {
+    font-size: 22px;
+    text-align: left;
+    padding: 3px;
+}
+
+.navigation__link {
+    color: white;
+}
+
+.navigation__link:hover {
+    color: rgb(90, 87, 87);
+}

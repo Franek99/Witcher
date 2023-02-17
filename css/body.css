@@ -1,6 +1,6 @@
 .body{
+    display: grid;
+    grid-template-columns:repeat(auto-fil , 1fr);
     background-color:black;
-    margin:auto;
     max-width: 1200px;
-    padding: 20px;
 };

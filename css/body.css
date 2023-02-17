@@ -3,4 +3,5 @@
     grid-template-columns:repeat(auto-fil , 1fr);
     background-color:black;
     max-width: 1200px;
+    margin: auto;
 };

@@ -32,7 +32,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
-    text-align: center;
+    text-align: justify;
+    padding: 10px;
     margin: 20px;
     margin-top: 10px;
     line-height: 2;
